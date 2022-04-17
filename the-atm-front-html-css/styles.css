@@ -1,3 +1,86 @@
-.my-class {
-  color: red;
+
+body {
+margin: 0;
+padding: 0;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background: rgba(102, 0, 236, 0.979);
+overflow: hidden
+}
+
+  h1 {
+    color:rgba(102, 0, 236, 0.979);
+  }
+
+.center {
+position:absolute;
+top: 50%;
+left: 50%;
+transform:translate(-50%, -50%);
+background:white;
+border-radius: 20px;
+}
+.center h1 {
+text-align: center;
+padding: 0 0 20px 0;
+}
+.center {
+  padding: 0 100px;
+  box-sizing: border-box;
+  
+}
+form .txt_field {
+  position: relative;
+  margin: 20px 0;
+  height: 45px;
+}
+.txt_field input {
+  width: 300px;
+  padding: 0 25px;
+  height: 40px;
+  font-size: 16px;
+  background: none;
+  border-width:0.1pt;
+
+}
+.txt_field label {
+  position:absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  font-size: 16px;
+  pointer-events: none;
+}
+.pin {
+  position: relative;
+  margin: 20px 0;
+  width: 300px;
+  height: 50px;
+}
+.pin input {
+  width: 300px;
+  padding: 0 25px;
+  height: 40px;
+  font-size: 16px;
+  background: none;
+  border-width:0.1pt;
+
+}
+.pin label {
+  position:absolute;
+  top: 50%;
+  left: 15px;
+  color: #adadad;
+  font-size: 16px;
+  pointer-events: none;
+}
+input[type=submit] {
+  border: 1px solid rgba(102, 0, 236, 0.979);
+  color: #fff;
+  background: rgba(102, 0, 236, 0.979);
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 354px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight:bold;
+  cursor: pointer;
 }
