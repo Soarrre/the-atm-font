@@ -48,11 +48,11 @@ form .txt_field {
   border-radius: 5px;
   border-color: #80808038;
 }
-.txt_field input:focus{
-  outline:none !important;
+.txt_field input:focus {
+  outline: none !important;
   border-width: 1.5px;
-  border-color:#7749f8;
-  color:#7749f8;
+  border-color: #7749f8;
+  color: #7749f8;
 }
 
 .txt_field label {
@@ -81,7 +81,7 @@ form .pin {
 }
 
 .pin input:focus {
-  outline:none !important;
+  outline: none !important;
   border-width: 1.5px;
   border-color: #7749f8;
   color: #7749f8;

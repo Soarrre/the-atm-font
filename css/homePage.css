@@ -55,6 +55,7 @@
   align-self: center;
   border-radius: 25px;
   font-size: large;
+  cursor: pointer;
 }
 
 .graph-container {
@@ -69,21 +70,27 @@
 
 .column {
   display: flex;
-  flex:1;
+  flex: 1;
+  justify-content: center;
   align-items: flex-end;
   width: 3em 3em;
   margin-left: 2em;
   margin-right: 2em;
   color: white;
 }
+
 .text {
   display: flex;
   flex-direction: column-reverse;
   padding: 2em 2em 0 2em;
   background-color: #4f30a1;
   margin-bottom: 3em;
-  max-width:100%;
+  max-width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: #000000;
 }
+
 #may {
   height: 6em;
 }

@@ -14,3 +14,10 @@ body {
   color: #7749f8;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color:#ffffff;
+}
