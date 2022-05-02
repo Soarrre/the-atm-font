@@ -4,6 +4,32 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.topnav {
+  background-color: #7749f8;
+  display: flex;
+  padding: 1em;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navigation a {
+  margin-right: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active,
+.navigation a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1em;
+}
+
 .container {
   padding-left: 5em;
   padding-right: 5em;
