@@ -9,6 +9,7 @@ body {
   display: flex;
   padding: 1em;
   align-items: center;
+  font-weight: bold;
 }
 
 .logo {
@@ -36,7 +37,7 @@ body {
   padding-top: 2em;
 }
 
-.greetingMessage{
+.greetingMessage {
   color: #7749f8;
 }
 
@@ -45,5 +46,5 @@ a {
 }
 
 a:visited {
-  color:#ffffff;
+  color: #ffffff;
 }
