@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  font-weight: bold;
 }
 
 .balance-container span {

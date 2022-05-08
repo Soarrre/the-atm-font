@@ -39,6 +39,8 @@ body {
 
 .greetingMessage {
   color: #7749f8;
+  margin-left: 1em;
+  font-weight:bold;
 }
 
 a {
