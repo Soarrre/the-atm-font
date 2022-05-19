@@ -50,3 +50,11 @@ a {
 a:visited {
   color: #ffffff;
 }
+
+
+
+/* @media only screen and (max-width: 400) {
+  body {
+    background-color: #fff;
+  }
+} */
